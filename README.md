@@ -15,7 +15,7 @@ pip install flask werkzeug requests
 ## Archivos principales
 - servidor.py: contiene el servidor Flask.
 - cliente.py: cliente en consola para interactuar con la API.
-- usuarios.db: base de datos SQLite, se genera automáticamente.
+- usuarios.db: base de datos SQLite.
 - README.md: instrucciones del proyecto.
 
 ## Cómo ejecutar el proyecto
@@ -31,10 +31,10 @@ cd gestion-tareas-api
 ```bash
 python servidor.py
 ```
-Se va a ver un mensaje similar a:
+Se va a ver un mensaje similar a: 
 * Running on http://127.0.0.1:5000
 
-3. Ejecutar el cliente (abrir otra terminal paralela):
+3. Ejecutar el cliente (en otra terminal paralela):
 ```bash
 python cliente.py
 ```
